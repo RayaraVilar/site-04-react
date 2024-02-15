@@ -1,0 +1,21 @@
+.box-navegacao{
+    background-color: #22b3c1;
+    display: flex;
+    justify-content: space-between;
+    padding: 2vh 15vw;
+    align-items: center;
+}
+
+.navegacao li{
+    display: flex;
+}
+
+.a-navegacao{
+    text-decoration: none;
+    color: white;
+    transition: 500ms;
+}
+
+.a-navegacao:hover{
+    opacity: 0.7;
+}
