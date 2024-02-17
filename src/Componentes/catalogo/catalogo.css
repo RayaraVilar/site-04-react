@@ -1,27 +1,13 @@
-.main-catalogo{
+.content-catalogo{
     margin-left: 15vw;
-}
-
-.chamada-catalogo{
-    width: 35%;
     margin-top: 15vh;
+}
+
+.chamada{
+    width: 35%;
     text-align: left;
+    margin-bottom: 100px;
 }
-
-.chamada-catalogo p{
-    font-weight: lighter;
-    color: rgb(133, 133, 133);
-}
-
-.card{
-    display: flex;
-}
-
-.cabecalho{
-    display: flex;
-    justify-content: space-between;
-}
-
-.menu-cat{
-    display: flex;
+.chamada p{
+    color: rgb(172, 172, 172);
 }

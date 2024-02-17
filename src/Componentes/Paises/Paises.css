@@ -1,0 +1,92 @@
+.content-paises{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15vw;
+}
+
+.imagem-e-texto{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin-bottom: 100px;
+}
+
+.texto-principal-horizontal{
+    display: flex;
+    justify-content: space-between;
+}
+
+.texto-paises{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pais{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.titulo-paises{
+    text-align: left;
+}
+
+.titulo-paises h1 {
+    display: flex;
+    flex-direction: column;
+    font-size: 2em;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-weight: bold;
+}
+
+.titulo-paises h2 {
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-weight: lighter;
+    color: rgb(172, 172, 172);
+}
+
+.botao-paises{
+    background-color: #22b3c1;
+    border: none;
+    border-radius: 25px;
+    padding: 15px 30px;
+}
+
+.botao-paises a{
+    color: white;
+    text-decoration: none;
+}
+
+.paragrafo-texto-paises{
+    width: 100%;
+    text-align: left;
+    color: rgb(172, 172, 172);;
+}
+
+.icones-populacao{
+    display: flex;
+    align-items: center;
+}
+
+.icones{
+    font-size: 25px;
+    color: #22b3c1;
+    padding-right: 20px;
+}
+
+.icones-populacao{
+    border-top: 1px solid rgb(172, 172, 172);
+    border-bottom: 1px solid rgb(172, 172, 172);
+}
+
+.icones-populacao p{
+    margin-right: 60px;
+}

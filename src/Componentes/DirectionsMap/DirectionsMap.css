@@ -1,0 +1,32 @@
+.Dmaps{
+    margin-left: 15vw;
+}
+
+.texto-dmaps{
+    display: flex;
+    align-items: center;
+}
+
+.Dmaps h1{
+    color: #22b3c1;;
+    
+}
+
+.mapa{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.Arrow{
+    font-size: 40px;
+    padding-left: 20px;
+    color: #22b3c1;
+}
+
+
+.mapa iframe {
+    width: 80%; 
+    height: 200px; 
+    border: none; 
+    margin-bottom: 200px;
+}
